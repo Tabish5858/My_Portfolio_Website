@@ -1,0 +1,1186 @@
+/* Montserrat font family for heading */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Poppins font family for para  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+blockquote,
+pre,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* =====  01. Reset  ====== */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1;
+    background: #04070E;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+button:focus {
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+label {
+    font-weight: normal;
+}
+
+iframe {
+    width: 100%;
+}
+
+/* =====  End of 01. Reset  ====== */
+/* ===== 02. Global Style ===== */
+
+h1 {
+    font-size: 85px;
+    font-weight: 800;
+    line-height: 91px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 41px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* input area sugguseation color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+.hover1 {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 2px solid #00F0FF;
+    color: #fff;
+    z-index: 1;
+    padding: 15px 45px;
+    transition: all 0.3s ease;
+    text-align: center;
+    background: none;
+    width: max-content;
+    transition: all 0.3s ease;
+}
+
+.hover1:hover {
+    background: #00F0FF;
+    color: #04070E;
+}
+
+.hover2 {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 2px solid #00F0FF;
+    color: #04070E;
+    z-index: 1;
+    padding: 15px 45px;
+    transition: all 0.3s ease;
+    text-align: center;
+    background: #00F0FF;
+    width: max-content;
+    transition: all 0.3s ease;
+}
+
+.hover2:hover {
+    background: transparent;
+    color: #ffffff;
+}
+
+.heading-with-lines {
+    position: relative;
+    display: inline-block;
+}
+
+.heading-with-lines::before,
+.heading-with-lines::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 140px;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #2a676ecf);
+}
+
+.heading-with-lines::before {
+    left: -140px;
+}
+
+.heading-with-lines::after {
+    right: -140px;
+    background: linear-gradient(to left, transparent, #2a676ecf);
+}
+
+.custom-cursor {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    pointer-events: none;
+    border: 1px solid #00F0FF;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s ease;
+    z-index: 9999;
+}
+
+.custom-cursor.hovered {
+    transform: scale(1.2);
+}
+
+.scrollToTop {
+    display: none;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1D123A;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 999;
+    transition: 0.5s ease all;
+}
+
+.scrollToTop.visible {
+    display: block;
+}
+
+.scrollToTop:hover {
+    transform: translateY(-15%);
+}
+
+.scrollToTop .arrowUp {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.scrollToTop .water {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    background-color: #00eeff75;
+    transition: all 0.3s;
+}
+
+.scrollToTop .water_wave {
+    width: 200%;
+    position: absolute;
+    bottom: 100%;
+}
+
+.scrollToTop .water_wave_back {
+    right: 0;
+    fill: #C7EEFF;
+    animation: wave-back 1.4s infinite linear;
+}
+
+.scrollToTop .water_wave_front {
+    left: 0;
+    fill: #00eeff75;
+    margin-bottom: -1px;
+    animation: wave-front 0.7s infinite linear;
+}
+
+@keyframes wave-front {
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes wave-back {
+    100% {
+        transform: translateX(50%);
+    }
+}
+
+/* Preloader styles */
+.site-wrapper {
+    visibility: hidden;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+body.preloader-active {
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #171626;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preloader-text {
+    position: absolute;
+    font-family: "Contrail One", sans-serif;
+    background: linear-gradient(90deg, transparent, #00f0ff, transparent);
+    background-size: 300% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientMove 3s infinite linear;
+    width: -webkit-fill-available;
+    text-align: center;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+        transform: translateY(0);
+    }
+
+    50% {
+        background-position: 100% 50%;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        background-position: 0% 50%;
+        transform: translateY(0);
+    }
+}
+
+/* ===== End of 02. Global Style ===== */
+/* ===== Canavs ===== */
+
+canvas {
+    height: 100vh !important;
+    width: 100vw !important;
+    background-image: url("../images/index/experiences_bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.glow-container {
+    --spread: 60;
+}
+
+.glow-card {
+    --active: 0.15;
+    --start: 0;
+}
+
+.glow-card:is(:hover, :focus-visible) {
+    z-index: 2;
+}
+
+.glows {
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+    filter: blur(calc(var(--blur) * 1px));
+}
+
+.glows::after,
+.glows::before {
+    --alpha: 0;
+    content: "";
+    background: conic-gradient(from 180deg at 50% 70%,
+            #f626af 0deg,
+            #8228ec 72.0000010728836deg,
+            #f626af 144.0000021457672deg,
+            #0025ba 216.00000858306885deg,
+            #f626af 288.0000042915344deg,
+            #fafafa 1turn);
+    background-attachment: fixed;
+    position: absolute;
+    inset: -5px;
+    border: 8px solid transparent;
+    border-radius: 12px;
+    mask: linear-gradient(#0000, #0000),
+        conic-gradient(from calc((var(--start) - (var(--spread) * 0.5)) * 1deg),
+            #000 0deg,
+            #fff,
+            #0000 calc(var(--spread) * 1deg));
+    mask-composite: intersect;
+    mask-clip: padding-box, border-box;
+    opacity: var(--active);
+    transition: opacity 1s;
+}
+
+.glow-card::before {
+    position: absolute;
+    inset: 0;
+    border: 2px solid transparent;
+    content: "";
+    border-radius: 12px;
+    pointer-events: none;
+    background: #84738c;
+    background-attachment: fixed;
+    border-radius: 12px;
+    mask: linear-gradient(#0000, #0000),
+        conic-gradient(from calc(((var(--start) + (var(--spread) * 0.25)) - (var(--spread) * 1.5)) * 1deg),
+            #ffffff26 0deg,
+            white,
+            #ffffff26 calc(var(--spread) * 2.5deg));
+    mask-clip: padding-box, border-box;
+    mask-composite: intersect;
+    opacity: var(--active);
+    transition: opacity 1s;
+}
+
+.glow-card::after {
+    --bg-size: 100%;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    background: conic-gradient(from 180deg at 50% 70%,
+            #f626af 0deg,
+            #8228ec 72.0000010728836deg,
+            #f626af 144.0000021457672deg,
+            #0025ba 216.00000858306885deg,
+            #f626af 288.0000042915344deg,
+            #fafafa 1turn);
+    background-attachment: fixed;
+    border-radius: 12px;
+    opacity: var(--active, 0);
+    transition: opacity 1s;
+    --alpha: 0;
+    inset: 0;
+    border: 2px solid transparent;
+    mask: linear-gradient(#0000, #0000),
+        conic-gradient(from calc(((var(--start) + (var(--spread) * 0.25)) - (var(--spread) * 0.5)) * 1deg),
+            #0000 0deg,
+            #fff,
+            #0000 calc(var(--spread) * 0.5deg));
+    filter: brightness(1.5);
+    mask-clip: padding-box, border-box;
+    mask-composite: intersect;
+}
+
+/* ===== Canavs ===== */
+/* ========= 1.1. Header section ======== */
+
+header {
+    background: none;
+}
+
+header .right-sidbar:has(.aside-dropdwon .active) .page-btn,
+header .dropdown:has(.dropdown-item.active) .nav-link {
+    color: #00F0FF;
+}
+
+header .nav-logo img {
+    width: 160px;
+}
+
+header .navbar-collapse {
+    justify-content: center;
+}
+
+header .right-sidbar {
+    width: 280px;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: -355px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 12px 10px 10px 5px;
+    background: #131B26;
+    z-index: 999;
+}
+
+header .open-aside {
+    display: none;
+    z-index: 2;
+    padding: 0px 2px;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+header .open-aside:hover {
+    color: #FADC42;
+}
+
+header aside .fa-caret-down {
+    color: #EAF035;
+    font-size: 18px;
+    padding: 0px 0px 5px;
+}
+
+header .right-sidbar a:focus,
+aside a {
+    color: #1b1117;
+}
+
+header #slid-drop {
+    display: none;
+}
+
+header #slid-btn {
+    cursor: pointer;
+}
+
+header aside li {
+    padding: 12px;
+}
+
+header #slid-drop li {
+    padding: 12px 0px;
+}
+
+header .aside-dropdwon {
+    display: block !important;
+}
+
+header .page-btn {
+    padding: 0px 0px 10px;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+header .page-btn:hover {
+    color: #00F0FF;
+}
+
+header .navbar ul li a:focus,
+header .navbar ul li a {
+    color: #ffffff;
+    padding: 14px;
+}
+
+header .navbar ul li a i {
+    color: #EAF035;
+}
+
+header .dropdown ul .active {
+    background: none;
+}
+
+header .right-sidbar .nav-item a {
+    color: #ffffff;
+}
+
+header .right-sidbar .nav-item a:hover,
+header .navbar-nav .nav-link:hover,
+header .navbar-nav .nav-link.active,
+header .navbar-nav .nav-link.show {
+    color: #00F0FF;
+}
+
+header aside .nav-item .active,
+header .right-sidbar .active a,
+header .navbar ul .active,
+header .navbar ul li a:hover {
+    color: #00F0FF;
+}
+
+header .dropdown ul {
+    width: 200px;
+}
+
+header .dropdown-menu {
+    padding: 15px 10px;
+    background-color: #082D40;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+    visibility: hidden;
+    display: block;
+    border: 1px solid #2D6A77;
+    border-radius: 25px;
+}
+
+header .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+header .dropdown ul li a {
+    color: #ffffff;
+    border-radius: 10px;
+    background: transparent;
+}
+
+header .dropdown ul li a:hover {
+    background-color: transparent;
+}
+
+header aside .fa-xmark {
+    padding: 8px 13px;
+    background-color: #EAF035;
+    background: linear-gradient(161.05deg, #00F0FF 14.35%, #0088FF 90.72%);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+header aside .fa-xmark:hover {
+    background: linear-gradient(180deg, #2589AC 0%, #DB9B1E 100%);
+}
+
+header .open-aside:hover {
+    color: #00F0FF;
+}
+
+header .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+header .modal-content {
+    width: 80%;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    animation: slideDown 0.3s ease-out;
+}
+
+header .modal-content input {
+    border: none;
+    border-bottom: 1px solid #6C8DA4;
+    background: transparent;
+    padding: 20px;
+    outline: none;
+    color: #ffffff;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+header .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+header .search-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #2589AC;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+header .search-button:hover {
+    background: #1a6b8a;
+}
+
+/* ========= End of 1.1. Header section ======== */
+/* ========= 1.2. Hero section ======== */
+
+.Hero {
+    padding: 100px 0px;
+}
+
+.header_hero_bg {
+    background-image: url("../images/index/hero_bg.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.Hero h2 {
+    color: #ffffff;
+}
+
+.Hero h2 span {
+    color: #00F0FF;
+}
+
+.Hero .gap-3 a svg {
+    width: 40px;
+}
+
+.Hero .gap-3 a:hover svg {
+    color: #00F0FF;
+}
+
+.Hero .rounded-circle {
+    width: 10px;
+    height: 10px;
+}
+
+.Hero .text-amber {
+    color: #00F0FF;
+}
+
+.Hero .text-green {
+    color: #00ff73;
+}
+
+.Hero .border-1 {
+    border-top: 1px solid #00F0FF;
+}
+
+.Hero .bg-gradient-to-r {
+    background: linear-gradient(to right, #00eeff2e, #0a0d37);
+}
+
+/* ========= End of 1.2. Hero section ======== */
+/* ========= 1.3. About section ======== */
+
+.About {
+    padding: 70px 0px;
+    background: #0624266d;
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, rgba(0, 240, 255, 0), #00f0ff, rgba(0, 240, 255, 0)) 1;
+}
+
+.About h4 {
+    color: #00F0FF;
+}
+
+.About h5 {
+    color: #ffffff;
+}
+
+.About figure {
+    width: fit-content;
+}
+
+/* ========= End of 1.3. About section ======== */
+/* ========= 1.4. Experience section ======== */
+
+.Experience {
+    padding: 100px 0px;
+    background: url("../../assets/images/index/experiences_bg.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, rgba(0, 240, 255, 0), #00f0ff, rgba(0, 240, 255, 0)) 1;
+}
+
+.Experience .mx-auto {
+    color: #ffffff;
+    background-color: #225881;
+    padding: 15px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.Experience .ExperiencesCard {
+    padding: 30px;
+    border: 0.5px solid #a6fffb;
+    border-radius: 10px;
+}
+
+.Experience .ExperiencesCard h4,
+.Experience .ExperiencesCard p {
+    color: #fafafa;
+}
+
+.Experience .ExperiencesCard h6 {
+    color: #00ff73;
+}
+
+.Experience .ExperiencesCard svg {
+    color: #00F0FF;
+}
+
+/* ========= End of 1.4. Experience section ======== */
+/* ========= 1.4. Skills section ======== */
+
+.Skills {
+    padding: 100px 0px;
+    background-color: #0d242481;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, rgba(0, 240, 255, 0), #00f0ff, rgba(0, 240, 255, 0)) 1;
+}
+
+.Skills img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.Skills .mx-auto {
+    color: #ffffff;
+    background-color: #225881;
+    padding: 15px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.Skills h6 {
+    color: #ffffff;
+}
+
+.Skills .p-3 {
+    height: 8rem;
+    width: 9rem;
+    background: #16404096;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: 0.3s ease all;
+    position: relative;
+}
+
+.Skills .p-3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 90%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #00F0FF, transparent);
+    transform: translateX(-50%);
+}
+
+.Skills .p-3:hover {
+    transform: scale(1.2);
+    border: 1px solid #00F0FF;
+}
+
+/* ========= End of 1.4. Skills section ======== */
+/* ========= 1.5. Projects section ======== */
+
+.Projects {
+    padding: 100px 0px;
+    background-color: #0d242481;
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, rgba(0, 240, 255, 0), #00f0ff, rgba(0, 240, 255, 0)) 1;
+}
+
+.Projects .mx-auto {
+    color: #ffffff;
+    background-color: #225881;
+    padding: 15px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.Projects .Projects_Hover {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-blend-mode: multiply;
+}
+
+.Projects .Projects_Hover::after,
+.Projects .Projects_Hover::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.Projects .Projects_Hover::after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.5) 100%);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.Projects .Projects_Hover::before {
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.2s ease, height 0.2s ease 0.2s;
+    box-sizing: border-box;
+}
+
+.Projects .Projects_Hover:hover::after {
+    background: #102e3076;
+}
+
+.Projects .Projects_Hover:hover::before {
+    border: 2px solid #0d0606;
+    width: 90%;
+    height: 90%;
+}
+
+.Projects .Projects_Hover .flex-sm-column {
+    position: absolute;
+    bottom: 8%;
+    width: 80%;
+    z-index: 999;
+    transition: transform 0.3s ease;
+    flex-direction: column;
+    transition: visibility 0s, opacity 1s linear 1s;
+    text-align: center;
+}
+
+.Projects .Projects_Hover:hover .flex-sm-column {
+    animation: hoverAnimation 1.5s ease forwards;
+    opacity: 1;
+}
+
+@keyframes hoverAnimation {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.Projects .Projects_Hover p {
+    color: #00F0FF;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.Projects .Projects_Hover p,
+.Projects .Projects_Hover a {
+    text-align: center;
+    display: none;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all ease 0.5s,
+}
+
+
+.Projects .Projects_Hover:hover .flex-sm-column p,
+.Projects .Projects_Hover:hover .flex-sm-column a {
+    display: flex;
+    transform: translateY(0);
+    opacity: 1;
+    transition-delay: 0s;
+}
+
+.Projects .Projects_Hover h4 {
+    transform: translateY(0);
+    color: #00F0FF;
+}
+
+/* ========= End of 1.5. Projects section ======== */
+/* ========= 1.6. Contact section ======== */
+
+.Contact {
+    padding: 100px 0px 0px;
+    background: url("../images/index/experiences_bg.svg") center center/cover no-repeat;
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, rgba(0, 240, 255, 0), #00f0ff, rgba(0, 240, 255, 0)) 1;
+}
+
+.Contact .mx-auto {
+    color: #ffffff;
+    background-color: #225881;
+    padding: 15px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+
+.Contact h6,
+.Contact h5,
+.Contact label {
+    color: #ffffff;
+}
+
+.Contact p {
+    color: red;
+    font-size: 12px;
+}
+
+.Contact input::placeholder,
+.Contact textarea::placeholder {
+    color: #ffffff;
+}
+
+.Contact input:focus,
+.Contact textarea:focus {
+    outline: none;
+}
+
+.Contact input,
+.Contact textarea {
+    background: transparent;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 1px solid #00F0FF;
+    width: 100%;
+}
+
+.Contact h6 svg,
+.Contact a svg {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #0088FF;
+    transition: 0.3s ease all;
+    margin: 0px 10px 0px 0px;
+}
+
+.Contact h6:hover,
+.Contact a:hover {
+    color: #00F0FF;
+}
+
+.Contact h6:hover svg,
+.Contact a:hover svg {
+    background: #00F0FF;
+    color: #04070E;
+    transform: scale(1.1);
+}
+
+.Contact .py-3 p {
+    color: #ffffff;
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, rgba(0, 240, 255, 0), #00f0ff, rgba(0, 240, 255, 0)) 1;
+}
+
+.Contact .py-3 p a {
+    color: #00F0FF;
+}
+
+/* ========= End of 1.6. Contact section ======== */

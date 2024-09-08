@@ -15,8 +15,5 @@ export const router = createBrowserRouter(
         },
       ],
     },
-  ],
-  {
-    basename: "/Tabish-s-Portfolio",
-  }
+  ]
 );

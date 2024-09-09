@@ -6,7 +6,7 @@ import ScrollToTop from "../components/ui/scrollToTop";
 const RootLayout = () => {
   return (
     <>
-      <Preloader />
+      {/* <Preloader /> */}
       <Outlet />
       <ScrollToTop />
     </>

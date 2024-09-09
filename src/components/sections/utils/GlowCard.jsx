@@ -48,17 +48,17 @@ const GlowCard = memo(({ children, identifier }) => {
 
     document.body.addEventListener("pointermove", UPDATE);
 
-    const RESTYLE = () => {
-      CONTAINER.style.setProperty("--gap", CONFIG.gap);
-      CONTAINER.style.setProperty("--blur", CONFIG.blur);
-      CONTAINER.style.setProperty("--spread", CONFIG.spread);
-      CONTAINER.style.setProperty(
-        "--direction",
-        CONFIG.vertical ? "column" : "row"
-      );
-    };
+    // const RESTYLE = () => {
+    //   CONTAINER.style.setProperty("--gap", CONFIG.gap);
+    //   CONTAINER.style.setProperty("--blur", CONFIG.blur);
+    //   CONTAINER.style.setProperty("--spread", CONFIG.spread);
+    //   CONTAINER.style.setProperty(
+    //     "--direction",
+    //     CONFIG.vertical ? "column" : "row"
+    //   );
+    // };
 
-    RESTYLE();
+    // RESTYLE();
     UPDATE();
 
     return () => {
@@ -66,8 +66,18 @@ const GlowCard = memo(({ children, identifier }) => {
     };
   }, [identifier]);
 
+  const custom = {
+    "--gap": 32,
+    "--blur": 12,
+    "--spread": 80,
+    "--direction": "row",
+  };
+
   return (
-    <div className={`glow-container-${identifier} glow-container`}>
+    <div
+      className={`glow-container-${identifier} glow-container`}
+      style={custom}
+    >
       <article
         className={`glow-card glow-card-${identifier} position-relative`}
       >

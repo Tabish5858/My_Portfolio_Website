@@ -390,7 +390,7 @@ input[type="number"]::-webkit-inner-spin-button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #1D123A;
+    background-color: #00eeff1b;
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
@@ -1092,11 +1092,11 @@ header .search-button:hover {
 }
 
 .Projects .Projects_Hover:hover::after {
-    background: #102e3076;
+    background: #102e30c9;
 }
 
 .Projects .Projects_Hover:hover::before {
-    border: 2px solid #0d0606;
+    border: 2px solid #00F0FF;
     width: 90%;
     height: 90%;
 }
@@ -1130,7 +1130,7 @@ header .search-button:hover {
 }
 
 .Projects .Projects_Hover p {
-    color: #00F0FF;
+    color: #ffffff;
     font-size: 14px;
     line-height: 17px;
 }

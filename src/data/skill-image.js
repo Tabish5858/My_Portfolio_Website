@@ -72,6 +72,7 @@ import vuetifyjs from "../assets/images/skills/vuetifyjs.svg";
 import webix from "../assets/images/skills/webix.svg";
 import wolframalpha from "../assets/images/skills/wolframalpha.svg";
 import wordpress from "../assets/images/skills/wordpress.svg";
+import nodejs from "../assets/images/skills/nodejs.svg";
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -100,6 +101,8 @@ export const skillsImage = (skill) => {
       return nextJS;
     case "nuxt js":
       return nuxtJS;
+    case "node js":
+      return nodejs;
     case "react":
       return react;
     case "svelte":

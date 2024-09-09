@@ -658,7 +658,7 @@ header .right-sidbar {
     transition: 0.5s;
     padding: 12px 10px 10px 5px;
     background: #131B26;
-    z-index: 999;
+    z-index: 99999;
 }
 
 header .open-aside {
@@ -785,15 +785,17 @@ header .dropdown ul li a:hover {
 header aside .fa-xmark {
     padding: 8px 13px;
     background-color: #EAF035;
-    background: linear-gradient(161.05deg, #00F0FF 14.35%, #0088FF 90.72%);
-    color: #ffffff;
-    border: none;
+    background: #00F0FF;
+    color: #04070E;
+    border: 1px solid #00f0ff;
     border-radius: 10px;
     font-size: 22px;
+    transition: 0.3s ease all;
 }
 
 header aside .fa-xmark:hover {
-    background: linear-gradient(180deg, #2589AC 0%, #DB9B1E 100%);
+    background: transparent;
+    color: #ffffff;
 }
 
 header .open-aside:hover {
@@ -1008,7 +1010,7 @@ header .search-button:hover {
 }
 
 .Skills .p-3 {
-    height: 8rem;
+    height: 9rem;
     width: 9rem;
     background: #16404096;
     padding: 20px;

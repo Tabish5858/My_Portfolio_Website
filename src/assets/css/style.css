@@ -390,7 +390,7 @@ input[type="number"]::-webkit-inner-spin-button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #00eeff1b;
+    background-color: #00eeff41;
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
@@ -929,6 +929,17 @@ header .search-button:hover {
     border-image: linear-gradient(to right, rgba(0, 240, 255, 0), #00f0ff, rgba(0, 240, 255, 0)) 1;
 }
 
+.About .mx-auto h5 {
+    color: #04070E;
+}
+
+.About .mx-auto {
+    background-color: #00F0FF;
+    padding: 15px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
 .About h4 {
     color: #00F0FF;
 }
@@ -955,8 +966,8 @@ header .search-button:hover {
 }
 
 .Experience .mx-auto {
-    color: #ffffff;
-    background-color: #225881;
+    color: #04070E;
+    background-color: #00F0FF;
     padding: 15px;
     border-radius: 10px;
     width: fit-content;
@@ -998,8 +1009,8 @@ header .search-button:hover {
 }
 
 .Skills .mx-auto {
-    color: #ffffff;
-    background-color: #225881;
+    color: #04070E;
+    background-color: #00F0FF;
     padding: 15px;
     border-radius: 10px;
     width: fit-content;
@@ -1047,8 +1058,8 @@ header .search-button:hover {
 }
 
 .Projects .mx-auto {
-    color: #ffffff;
-    background-color: #225881;
+    color: #04070E;
+    background-color: #00F0FF;
     padding: 15px;
     border-radius: 10px;
     width: fit-content;
@@ -1170,9 +1181,12 @@ header .search-button:hover {
     border-image: linear-gradient(to right, rgba(0, 240, 255, 0), #00f0ff, rgba(0, 240, 255, 0)) 1;
 }
 
+.Contact .mx-auto h5 {
+    color: #04070E;
+}
+
 .Contact .mx-auto {
-    color: #ffffff;
-    background-color: #225881;
+    background-color: #00F0FF;
     padding: 15px;
     border-radius: 10px;
     width: fit-content;
@@ -1216,10 +1230,13 @@ header .search-button:hover {
     height: 40px;
     padding: 10px;
     border-radius: 50%;
-    background-color: #ffffff;
-    color: #0088FF;
-    transition: 0.3s ease all;
+    background-color: #04070E;
+    color: #00F0FF;
     margin: 0px 10px 0px 0px;
+    background: #00F0FF;
+    color: #04070E;
+    border: 1px solid #00f0ff;
+    transition: 0.3s ease all;
 }
 
 .Contact h6:hover,
@@ -1229,8 +1246,8 @@ header .search-button:hover {
 
 .Contact h6:hover svg,
 .Contact a:hover svg {
-    background: #00F0FF;
-    color: #04070E;
+    background-color: #04070E;
+    color: #00F0FF;
     transform: scale(1.1);
 }
 
@@ -1242,6 +1259,10 @@ header .search-button:hover {
 
 .Contact .py-3 p a {
     color: #00F0FF;
+}
+
+.Contact button {
+    width: fit-content;
 }
 
 /* ========= End of 1.6. Contact section ======== */

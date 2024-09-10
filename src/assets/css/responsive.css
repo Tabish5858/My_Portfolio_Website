@@ -76,6 +76,10 @@
     .modal-dialog {
         width: 90%;
     }
+
+    canvas {
+        height: 70vh !important;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -143,6 +147,10 @@
 
     .scrollToTop {
         transform: scale(0.7);
+    }
+
+    canvas {
+        height: 60vh !important;
     }
 }
 

@@ -1,18 +1,22 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useMemo, useCallback } from "react";
 import { useTexture } from "@react-three/drei";
 import * as THREE from "three";
 import { useFrame } from "@react-three/fiber";
 import { useDrag } from "@use-gesture/react";
 import { images } from "../../../data/projectShowCase";
 
-const Cyl = () => {
-  const imagePaths = [
-    images.cybbor,
-    images.appific,
-    images.optimistix,
-    images.finteezy,
-    images.kinderDot,
-  ];
+const Cyl = React.memo(() => {
+  const imagePaths = useMemo(
+    () => [
+      images.cybbor,
+      images.appific,
+      images.optimistix,
+      images.finteezy,
+      images.kinderDot,
+    ],
+    []
+  );
+
   const textures = useTexture(imagePaths);
   const cyl = useRef(null);
   const [isDragging, setIsDragging] = useState(false);
@@ -25,11 +29,16 @@ const Cyl = () => {
     }
   });
 
-  const bind = useDrag(({ active }) => {
-    setIsDragging(active);
-  });
+  const bind = useDrag(
+    useCallback(({ active }) => {
+      setIsDragging(active);
+    }, [])
+  );
 
-  const segmentAngle = (2 * Math.PI) / textures.length;
+  const segmentAngle = useMemo(
+    () => (2 * Math.PI) / textures.length,
+    [textures.length]
+  );
   const radius = 1.4;
   const height = 1;
 
@@ -47,7 +56,7 @@ const Cyl = () => {
             ]}
           >
             <cylinderGeometry
-              args={[radius, radius, height, 100, 100, true, 0, segmentAngle]}
+              args={[radius, radius, height, 32, 1, true, 0, segmentAngle]}
             />
             <meshStandardMaterial
               map={texture}
@@ -59,6 +68,6 @@ const Cyl = () => {
       </group>
     </group>
   );
-};
+});
 
 export default Cyl;

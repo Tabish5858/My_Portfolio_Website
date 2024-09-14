@@ -10,7 +10,6 @@ import {
 
 const ProjectsShowCase = () => {
   return (
-    <>
       <Canvas flat camera={{ fov: 40 }}>
         <OrbitControls
           enablePan={false}
@@ -30,7 +29,6 @@ const ProjectsShowCase = () => {
           {/* <ToneMapping adaptive /> */}
         </EffectComposer>
       </Canvas>
-    </>
   );
 };
 

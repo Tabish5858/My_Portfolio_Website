@@ -1,6 +1,7 @@
 import { HashLink as Link } from "react-router-hash-link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import heroData from "../../data/heroData";
+import resume from "../../assets/Resume/TabishBinIshfaqResume.pdf";
 
 function Hero() {
   const { name, title, githubUrl, linkedinUrl, skills, attributes } = heroData;
@@ -32,11 +33,11 @@ function Hero() {
               </div>
               <div className="d-flex gap-lg-3 gap-2 flex-sm-row flex-column">
                 <Link to="/#contact" className="hover1" smooth>
-                  Contact Me{" "}
+                  Contact Me
                 </Link>
-                <Link to="/resume" className="hover2">
-                  Get Resume{" "}
-                </Link>
+                <a href={resume} target="_blank" className="hover2">
+                  Get Resume
+                </a>
               </div>
             </div>
           </div>

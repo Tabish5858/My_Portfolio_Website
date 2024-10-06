@@ -4,27 +4,27 @@ import project_Img3 from "../assets/images/projects/optimistix.gif";
 import project_Img4 from "../assets/images/projects/Finteezy.gif";
 import project_Img5 from "../assets/images/projects/kinderDot.gif";
 import project_Img6 from "../assets/images/projects/LivingQuran.gif";
+import project_Img7 from "../assets/images/projects/paypath.gif";
 
 export const projectsData = [
   {
     id: 1,
-    name: "Cybbor – Protect Your Cyber Security",
+    name: "PayPath - Fintech & Online Payment Gateway",
     description:
-      "A fully responsive website for a cybersecurity company, built from a Figma design using HTML, CSS, JavaScript, jQuery, and Bootstrap. Complete with thorough quality assurance testing.",
-    tools: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
-    demo: "https://html-templates.evonicmedia.com/cybbor/index.html",
-    image: project_Img1,
+      "PayPath is the first React-based project at Evonicsoft, a comprehensive fintech and online payment gateway template.This project was successfully approved and launched on ThemeForest.",
+    tools: ["React", "Bootstrap", "JSX"],
+    demo: "https://themeforest.net/item/paypath-fintech-online-payment-gateway-react-js-template/54620082?s_rank=1",
+    image: project_Img7,
   },
   {
     id: 2,
-    name: "The Living Quran",
+    name: "Finteezy - Fintech Startup & Digital Wallet",
     description:
-      "A Quran app built with React and Tailwind CSS. Features include reading and listening to the Quran, bookmarking specific ayats, dark mode, font size adjustments, and a search option. Data is dynamically fetched via APIs.",
-    tools: ["React", "Tailwind CSS", "APIs"],
-    demo: "https://tabish5858.github.io/The-Quran-App/",
-    image: project_Img6,
+      "A fintech startup website built for a digital wallet service, featuring responsiveness and cross-browser compatibility, built with modern web technologies.",
+    tools: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
+    demo: "https://themeforest.net/item/finteezy-fintech-startup-digital-wallet-html5-website/54234343?s_rank=13",
+    image: project_Img4,
   },
-
   {
     id: 3,
     name: "Optimistx - SEO & Digital Agency",
@@ -37,12 +37,12 @@ export const projectsData = [
   },
   {
     id: 4,
-    name: "Finteezy - Fintech Startup & Digital Wallet",
+    name: "Appific - App Showcase",
     description:
-      "A fintech startup website built for a digital wallet service, featuring responsiveness and cross-browser compatibility, built with modern web technologies.",
+      "A responsive app showcase website with a custom pre-loader, built using HTML, CSS, JavaScript, jQuery, and Bootstrap. Complete with testing and deployment.",
     tools: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
-    demo: "https://html-templates.evonicmedia.com/finteezy/",
-    image: project_Img4,
+    demo: "https://themeforest.net/item/appific-mobile-app-startup-html5-template/54530961?s_rank=5",
+    image: project_Img2,
   },
   {
     id: 5,
@@ -56,25 +56,20 @@ export const projectsData = [
   },
   {
     id: 6,
-    name: "Appific - App Showcase",
+    name: "Cybbor - Protect Your Cyber Security",
     description:
-      "A responsive app showcase website with a custom pre-loader, built using HTML, CSS, JavaScript, jQuery, and Bootstrap. Complete with testing and deployment.",
+      "A fully responsive website for a cybersecurity company, built from a Figma design using HTML, CSS, JavaScript, jQuery, and Bootstrap. Complete with thorough quality assurance testing.",
     tools: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
-    demo: "https://html-templates.evonicmedia.com/appific/index.html",
-    image: project_Img2,
+    demo: "https://html-templates.evonicmedia.com/cybbor/index.html",
+    image: project_Img1,
+  },
+  {
+    id: 7,
+    name: "The Living Quran",
+    description:
+      "A Quran app built with React and Tailwind CSS. Features include reading and listening to the Quran, bookmarking specific ayats, dark mode, font size adjustments, and a search option. Data is dynamically fetched via APIs.",
+    tools: ["React", "Tailwind CSS", "APIs"],
+    demo: "https://tabish5858.github.io/The-Quran-App/",
+    image: project_Img6,
   },
 ];
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-//     image: crefin,
-// },

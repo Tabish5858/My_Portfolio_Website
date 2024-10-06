@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import ProjectsCard from "./utils/ProjectsCard";
 import { projectsData } from "../../data/projects-data";
 
 const Projects = () => {
+  const [showAll, setShowAll] = useState(false);
+
+  const handleShowMore = () => {
+    setShowAll(!showAll);
+  };
+
+  const visibleProjects = showAll ? projectsData : projectsData.slice(0, 6);
+
   return (
     <section className="Projects">
       <div className="container">
@@ -10,7 +18,7 @@ const Projects = () => {
           <h5>My Projects</h5>
         </div>
         <div className="row gy-4 mt-lg-5 mt-4">
-          {projectsData.map((project) => (
+          {visibleProjects.map((project) => (
             <div className="col-lg-6" key={project.id}>
               <ProjectsCard
                 imageSrc={project.image}
@@ -20,6 +28,11 @@ const Projects = () => {
               />
             </div>
           ))}
+        </div>
+        <div className="d-flex justify-content-center mt-lg-5 mt-4">
+          <button className="hover1" onClick={handleShowMore}>
+            {showAll ? "Show Less" : "Show More"}
+          </button>
         </div>
       </div>
     </section>

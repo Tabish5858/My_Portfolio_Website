@@ -13,6 +13,7 @@ const Cyl = React.memo(() => {
       images.optimistix,
       images.finteezy,
       images.kinderDot,
+      images.paypath,
     ],
     []
   );
@@ -39,7 +40,7 @@ const Cyl = React.memo(() => {
     () => (2 * Math.PI) / textures.length,
     [textures.length]
   );
-  const radius = 1.4;
+  const radius = 1.6;
   const height = 1;
 
   return (
@@ -56,7 +57,7 @@ const Cyl = React.memo(() => {
             ]}
           >
             <cylinderGeometry
-              args={[radius, radius, height, 32, 1, true, 0, segmentAngle]}
+              args={[radius, radius, height, 20, 1, true, 0, segmentAngle]}
             />
             <meshStandardMaterial
               map={texture}

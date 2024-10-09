@@ -15,6 +15,9 @@ export const projectsData = [
     tools: ["React", "Bootstrap", "JSX"],
     demo: "https://themeforest.net/item/paypath-fintech-online-payment-gateway-react-js-template/54620082?s_rank=1",
     image: project_Img7,
+    duration: "Sep 2024 - Oct 2024",
+    company: "Evonicsoft",
+    companyLink: "https://www.evonicsoft.com/",
   },
   {
     id: 2,
@@ -24,6 +27,9 @@ export const projectsData = [
     tools: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
     demo: "https://themeforest.net/item/finteezy-fintech-startup-digital-wallet-html5-website/54234343?s_rank=13",
     image: project_Img4,
+    duration: "Jul 2024 - Aug 2024",
+    company: "Evonicsoft",
+    companyLink: "https://www.evonicsoft.com/",
   },
   {
     id: 3,
@@ -34,6 +40,9 @@ export const projectsData = [
     role: "Frontend Developer",
     demo: "https://html-templates.evonicmedia.com/optimistix/",
     image: project_Img3,
+    duration: "Jun 2024 - Jul 2024",
+    company: "Evonicsoft",
+    companyLink: "https://www.evonicsoft.com/",
   },
   {
     id: 4,
@@ -43,6 +52,9 @@ export const projectsData = [
     tools: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
     demo: "https://themeforest.net/item/appific-mobile-app-startup-html5-template/54530961?s_rank=5",
     image: project_Img2,
+    duration: "May 2024 - Jun 2024",
+    company: "Evonicsoft",
+    companyLink: "https://www.evonicsoft.com/",
   },
   {
     id: 5,
@@ -53,6 +65,9 @@ export const projectsData = [
     role: "Frontend Developer",
     demo: "https://html-templates.evonicmedia.com/kinderdot/",
     image: project_Img5,
+    duration: "Aug 2024 - Sep 2024",
+    company: "Evonicsoft",
+    companyLink: "https://www.evonicsoft.com/",
   },
   {
     id: 6,
@@ -62,6 +77,9 @@ export const projectsData = [
     tools: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
     demo: "https://html-templates.evonicmedia.com/cybbor/index.html",
     image: project_Img1,
+    duration: "Apr 2024 - May 2024",
+    company: "Evonicsoft",
+    companyLink: "https://www.evonicsoft.com/",
   },
   {
     id: 7,
@@ -71,5 +89,8 @@ export const projectsData = [
     tools: ["React", "Tailwind CSS", "APIs"],
     demo: "https://tabish5858.github.io/The-Quran-App/",
     image: project_Img6,
+    duration: "Mar 2024 - Mar 2024",
+    company: "Islamia University Of BWP",
+    companyLink: "https://www.iub.edu.pk/",
   },
 ];

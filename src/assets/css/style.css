@@ -519,6 +519,10 @@ body.preloader-active {
     }
 }
 
+.linkHover:hover{
+    color: #00F0FF;
+}
+
 /* ===== End of 02. Global Style ===== */
 /* ===== Canavs ===== */
 
@@ -1049,7 +1053,7 @@ header .search-button:hover {
 
 /* ========= End of 1.4. Skills section ======== */
 /* ========= 1.5. Projects section ======== */
-
+/* 
 .Projects {
     padding: 100px 0px;
     background-color: #0d242481;
@@ -1169,6 +1173,36 @@ header .search-button:hover {
 .Projects .Projects_Hover h4 {
     transform: translateY(0);
     color: #00F0FF;
+} */
+
+.Projects {
+    padding: 100px 0px;
+    background-color: #0d242481;
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, rgba(0, 240, 255, 0), #00F0FF, rgba(0, 240, 255, 0)) 1;
+}
+.Projects .mx-auto {
+    color: #04070E;
+    background-color: #00F0FF;
+    padding: 15px;
+    border-radius: 10px;
+    width: fit-content;
+}
+.Projects .rounded-circle {
+    width: 10px;
+    height: 10px;
+}
+.Projects .text-amber {
+    color: #00F0FF;
+}
+.Projects .text-green {
+    color: #00FF73;
+}
+.Projects .border-1 {
+    border-top: 1px solid #00F0FF;
+}
+.Projects .bg-gradient-to-r {
+    background: linear-gradient(to right, #00eeff2e, #0A0D37);
 }
 
 /* ========= End of 1.5. Projects section ======== */

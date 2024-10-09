@@ -21,10 +21,14 @@ const Projects = () => {
           {visibleProjects.map((project) => (
             <div className="col-lg-6" key={project.id}>
               <ProjectsCard
-                imageSrc={project.image}
-                title={project.name}
-                description={project.description}
-                link={project.demo}
+                 imageSrc={project.image}
+                 title={project.name}
+                 description={project.description}
+                 tools={project.tools}
+                 duration={project.duration}
+                 company={project.company}
+                 companyLink={project.companyLink}
+                 demoLink={project.demo}
               />
             </div>
           ))}

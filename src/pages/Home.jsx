@@ -15,7 +15,7 @@ const Projects = React.lazy(() => import("../components/sections/Projects"));
 const Home = () => {
   return (
     <>
-      {/* <div id="home" className="header_hero_bg">
+      <div id="home" className="header_hero_bg">
         <Header />
         <Hero />
       </div>
@@ -27,21 +27,21 @@ const Home = () => {
       </section>
       <section id="skills">
         <Skills />
-      </section> */}
+      </section>
       <section id="projects">
         <Suspense fallback={<div>Loading Projects Showcase...</div>}>
           <ProjectsShowCase />
         </Suspense>
-        {/* <Suspense fallback={<div>Loading Projects...</div>}>
+        <Suspense fallback={<div>Loading Projects...</div>}>
           <Projects />
-        </Suspense> */}
+        </Suspense>
       </section>
-      {/* <section id="education">
+      <section id="education">
         <Education />
       </section>
       <section id="contact">
         <Contact />
-      </section> */}
+      </section>
     </>
   );
 };

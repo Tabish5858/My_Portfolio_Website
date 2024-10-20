@@ -40,7 +40,7 @@ const Cyl = React.memo(() => {
     () => (2 * Math.PI) / textures.length,
     [textures.length]
   );
-  const radius = 1.6;
+  const radius = 1.5;
   const height = 1;
 
   return (

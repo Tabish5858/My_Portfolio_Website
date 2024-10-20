@@ -9,6 +9,7 @@ export const skillsData = [
   "ViteJS",
   "Node JS",
   "MongoDB",
+  "PostgreSQL",
   "MySQL",
   "Git",
   "Figma",

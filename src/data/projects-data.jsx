@@ -5,8 +5,21 @@ import project_Img4 from "../assets/images/projects/Finteezy.gif";
 import project_Img5 from "../assets/images/projects/kinderDot.gif";
 import project_Img6 from "../assets/images/projects/LivingQuran.gif";
 import project_Img7 from "../assets/images/projects/paypath.gif";
+import project_Img8 from "../assets/images/projects/bravius.gif";
 
 export const projectsData = [
+  {
+    id: 8,
+    name: "Bravius AI - Responsive AI Website",
+    description:
+      "Bravius AI is the first Tailwind-based project at Evonicsoft, It is a responsive template built with HTML, Tailwind CSS, and AOS & is optimized for all screen sizes from 2500px to 280px.",
+    tools: ["HTML", "Tailwind CSS", "AOS"],
+    demo: "https://html-templates.evonicmedia.com/braviusai/",
+    image: project_Img8,
+    duration: "Oct 2024",
+    company: "Evonicsoft",
+    companyLink: "https://www.evonicsoft.com/",
+  },
   {
     id: 1,
     name: "PayPath - Fintech & Online Payment Gateway",

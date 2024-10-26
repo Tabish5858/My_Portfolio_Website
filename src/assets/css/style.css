@@ -519,7 +519,7 @@ body.preloader-active {
     }
 }
 
-.linkHover:hover{
+.linkHover:hover {
     color: #00F0FF;
 }
 
@@ -952,8 +952,10 @@ header .search-button:hover {
     color: #ffffff;
 }
 
+.About figure img,
 .About figure {
     width: fit-content;
+    border-radius: 15px;
 }
 
 /* ========= End of 1.3. About section ======== */
@@ -1181,6 +1183,7 @@ header .search-button:hover {
     border-top: 2px solid;
     border-image: linear-gradient(to right, rgba(0, 240, 255, 0), #00F0FF, rgba(0, 240, 255, 0)) 1;
 }
+
 .Projects .mx-auto {
     color: #04070E;
     background-color: #00F0FF;
@@ -1188,19 +1191,24 @@ header .search-button:hover {
     border-radius: 10px;
     width: fit-content;
 }
+
 .Projects .rounded-circle {
     width: 10px;
     height: 10px;
 }
+
 .Projects .text-amber {
     color: #00F0FF;
 }
+
 .Projects .text-green {
     color: #00FF73;
 }
+
 .Projects .border-1 {
     border-top: 1px solid #00F0FF;
 }
+
 .Projects .bg-gradient-to-r {
     background: linear-gradient(to right, #00eeff2e, #0A0D37);
 }

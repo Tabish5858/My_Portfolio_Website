@@ -8,7 +8,7 @@ import { images } from "../../../data/projectShowCase";
 const Cyl = React.memo(() => {
   const imagePaths = useMemo(
     () => [
-      images.cybbor,
+      images.bravius,
       images.appific,
       images.optimistix,
       images.finteezy,

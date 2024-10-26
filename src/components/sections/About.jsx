@@ -1,6 +1,5 @@
 import React from "react";
-import AnimationLottie from "../sections/utils/AnimationLottie";
-import experienceAnimation from "../../assets/images/lottie/coding.json";
+import profilePic from "../../assets/images/index/profile_Pic.png"
 
 const About = () => {
   return (
@@ -25,9 +24,9 @@ const About = () => {
               </h5>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 d-flex justify-content-center align-items-center">
             <figure className="d-flex justify-content-center align-items-center">
-              <AnimationLottie animationPath={experienceAnimation} />
+              <img src={profilePic} alt="profilePic" className="w-100"/>
             </figure>
           </div>
         </div>

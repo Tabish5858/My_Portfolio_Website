@@ -12,7 +12,7 @@ const Skills = () => {
         <div className="w-100 my-3 mt-md-5 mt-4">
           <Marquee
             gradient={false}
-            speed={80}
+            speed={100}
             pauseOnHover={true}
             pauseOnClick={true}
             delay={0}

@@ -1,11 +1,11 @@
 export const skillsData = [
   "HTML",
   "CSS",
+  "Bootstrap",
+  "Tailwind",
   "Javascript",
   "Typescript",
   "React",
-  "Bootstrap",
-  "Tailwind",
   "ViteJS",
   "Node JS",
   "MongoDB",

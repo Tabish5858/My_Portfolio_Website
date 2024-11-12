@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const ProjectsCard = ({
@@ -10,17 +10,36 @@ const ProjectsCard = ({
   company,
   companyLink,
   demoLink,
+  banner,
 }) => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   return (
-    <div className="position-relative rounded bg-gradient-to-r flex-grow-1 h-100">
+    <div
+      className="position-relative rounded bg-gradient-to-r flex-grow-1 h-100"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
       <div className="d-flex flex-row gap-2 p-lf-4 p-3">
         <div className="rounded-circle bg-danger"></div>
         <div className="rounded-circle bg-warning"></div>
         <div className="rounded-circle bg-success"></div>
       </div>
-      <div className="border-1 p-lg-4 p-3">
-        <figure className="mb-4">
-          <img src={imageSrc} alt={title} className="img-fluid rounded" />
+      <div className="border-1 p-lg-4 p-3 d-flex flex-column">
+        <figure className="mb-4 h-100">
+          <img
+            src={banner && !isHovered ? banner : imageSrc}
+            alt={imageSrc}
+            className="w-100 rounded"
+          />
         </figure>
         <code className="d-flex flex-column gap-lg-3 gap-2">
           <div className="d-flex gap-1">

@@ -1184,6 +1184,11 @@ header .search-button:hover {
     border-image: linear-gradient(to right, rgba(0, 240, 255, 0), #00F0FF, rgba(0, 240, 255, 0)) 1;
 }
 
+.Projects img {
+    min-height: 300px;
+    max-height: 320px;
+}
+
 .Projects .mx-auto {
     color: #04070E;
     background-color: #00F0FF;

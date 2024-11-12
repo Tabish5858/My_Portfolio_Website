@@ -289,6 +289,10 @@
     .Projects .Projects_Hover {
         min-height: 40vh;
     }
+
+    .Projects img {
+        min-height: 200px;
+    }
 }
 
 /* ========= End of 1.6. Projects section ======== */

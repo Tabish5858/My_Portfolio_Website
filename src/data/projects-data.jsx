@@ -1,11 +1,23 @@
 import project_Img1 from "../assets/images/projects/Cybbor.gif";
+
 import project_Img2 from "../assets/images/projects/Appific.gif";
+import project_Img2_banner from "../assets/images/projects/Appific_banner.png";
+
 import project_Img3 from "../assets/images/projects/optimistix.gif";
+import project_Img3_banner from "../assets/images/projects/optimistix_banner.png";
+
 import project_Img4 from "../assets/images/projects/Finteezy.gif";
+import project_Img4_banner from "../assets/images/projects/Finteezy_banner.png";
+
 import project_Img5 from "../assets/images/projects/kinderDot.gif";
+
 import project_Img6 from "../assets/images/projects/LivingQuran.gif";
+
 import project_Img7 from "../assets/images/projects/paypath.gif";
+import project_Img7_banner from "../assets/images/projects/paypath_banner.png";
+
 import project_Img8 from "../assets/images/projects/bravius.gif";
+
 
 export const projectsData = [
   {
@@ -28,6 +40,7 @@ export const projectsData = [
     tools: ["React", "Bootstrap", "JSX"],
     demo: "https://themeforest.net/item/paypath-fintech-online-payment-gateway-react-js-template/54620082?s_rank=1",
     image: project_Img7,
+    banner: project_Img7_banner,
     duration: "Sep 2024 - Oct 2024",
     company: "Evonicsoft",
     companyLink: "https://www.evonicsoft.com/",
@@ -40,6 +53,7 @@ export const projectsData = [
     tools: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
     demo: "https://themeforest.net/item/finteezy-fintech-startup-digital-wallet-html5-website/54234343?s_rank=13",
     image: project_Img4,
+    banner: project_Img4_banner,
     duration: "Jul 2024 - Aug 2024",
     company: "Evonicsoft",
     companyLink: "https://www.evonicsoft.com/",
@@ -51,8 +65,9 @@ export const projectsData = [
       "A custom-built SEO and digital agency website with a custom loader, fully responsive and tested across various devices.",
     tools: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
     role: "Frontend Developer",
-    demo: "https://html-templates.evonicmedia.com/optimistix/",
+    demo: "https://themeforest.net/item/optimistx-seo-digital-agency-html5-template/55167000?s_rank=2",
     image: project_Img3,
+    banner: project_Img3_banner,
     duration: "Jun 2024 - Jul 2024",
     company: "Evonicsoft",
     companyLink: "https://www.evonicsoft.com/",
@@ -65,6 +80,7 @@ export const projectsData = [
     tools: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
     demo: "https://themeforest.net/item/appific-mobile-app-startup-html5-template/54530961?s_rank=5",
     image: project_Img2,
+    banner: project_Img2_banner,
     duration: "May 2024 - Jun 2024",
     company: "Evonicsoft",
     companyLink: "https://www.evonicsoft.com/",

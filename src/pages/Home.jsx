@@ -22,9 +22,6 @@ const Home = () => {
       <section id="about">
         <About />
       </section>
-      <section id="experience">
-        <Experience />
-      </section>
       <section id="skills">
         <Skills />
       </section>
@@ -35,6 +32,9 @@ const Home = () => {
         <Suspense fallback={<div>Loading Projects...</div>}>
           <Projects />
         </Suspense>
+      </section>
+      <section id="experience">
+        <Experience />
       </section>
       <section id="education">
         <Education />

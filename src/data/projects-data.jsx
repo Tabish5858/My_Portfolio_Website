@@ -17,18 +17,19 @@ import project_Img7 from "../assets/images/projects/paypath.gif";
 import project_Img7_banner from "../assets/images/projects/paypath_banner.png";
 
 import project_Img8 from "../assets/images/projects/bravius.gif";
-
+import project_Img8_banner from "../assets/images/projects/bravius_banner.png";
 
 export const projectsData = [
   {
     id: 8,
     name: "Bravius AI - Responsive AI Website",
     description:
-      "Bravius AI is the first Tailwind-based project at Evonicsoft, It is a responsive template built with HTML, Tailwind CSS, and AOS & is optimized for all screen sizes from 2500px to 280px.",
-    tools: ["HTML", "Tailwind CSS", "AOS"],
-    demo: "https://html-templates.evonicmedia.com/braviusai/",
+      "Bravius AI is the first React & Tailwind-based project at Evonicsoft, It is a responsive template built with React, Tailwind CSS, and TSX & is optimized for all screen sizes from 2500px to 280px.",
+    tools: ["React", "Tailwind CSS", "Typescript(TSX)"],
+    demo: "https://themeforest.net/item/braviusai-ai-robotics-tailwind-react-js-template/55413360?s_rank=1",
+    banner: project_Img8_banner,
     image: project_Img8,
-    duration: "Oct 2024",
+    duration: "Oct 2024 - Nov 2024",
     company: "Evonicsoft",
     companyLink: "https://www.evonicsoft.com/",
   },

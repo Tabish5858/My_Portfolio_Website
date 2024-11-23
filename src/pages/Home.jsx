@@ -26,9 +26,9 @@ const Home = () => {
         <Skills />
       </section>
       <section id="projects">
-        <Suspense fallback={<div>Loading Projects Showcase...</div>}>
+        {/* <Suspense fallback={<div>Loading Projects Showcase...</div>}>
           <ProjectsShowCase />
-        </Suspense>
+        </Suspense> */}
         <Suspense fallback={<div>Loading Projects...</div>}>
           <Projects />
         </Suspense>

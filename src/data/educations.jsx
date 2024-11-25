@@ -1,13 +1,13 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
+    title: "Bachelor In Computer Science",
     duration: "2023 - Present",
     institution: "IUB Bahawalpur, Punjab, Pakistan",
   },
   {
     id: 2,
-    title: "College Certificate",
+    title: "Pre-Engineering",
     duration: "2020 - 2022",
     institution: "Punjab College Bahawalpur, Punjab, Pakistan ",
   },

@@ -57,7 +57,7 @@ const ProjectsCard = ({
           <div className="ms-lg-4 ms-3 ">
             <span className="text-white">description:</span>
             <span className="text-gray">'</span>
-            <span className="text-amber">{description}</span>
+            <span className="text-amber" style={{ whiteSpace: 'pre-line' }}>{description}</span>
             <span className="text-gray">',</span>
           </div>
           <div className="ms-lg-4 ms-3 me-2 d-flex gap-1 flex-wrap">

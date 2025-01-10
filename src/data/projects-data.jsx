@@ -19,7 +19,24 @@ import project_Img7_banner from "../assets/images/projects/paypath_banner.png";
 import project_Img8 from "../assets/images/projects/bravius.gif";
 import project_Img8_banner from "../assets/images/projects/bravius_banner.png";
 
+import project_Img9_banner from "../assets/images/projects/turnstime_banner.png";
+
 export const projectsData = [
+  {
+    id: 9,
+    name: "Turnstime - Modern Hand Watch Shop E-Commerce",
+    description:
+    "Turnstime is a modern e-commerce website designed and developed focusing on user-friendly functionality and responsive design.\n\n" +
+    "🔹Built using React, TypeScript, TailwindCSS, and Swiper for interactive sliders.\n\n" +
+    "🔹Core features include add-to-cart, wishlist, and detailed product pages showcasing descriptions, reviews, and related products.",
+    tools: ["React", "Tailwind CSS", "Typescript(TSX)"],
+    demo: "https://react-templates.evonicmedia.com/turnstime/",
+    banner: project_Img9_banner,
+    image: project_Img9_banner,
+    duration: "Nov 2024 - Dec 2024",
+    company: "Evonicsoft",
+    companyLink: "https://www.evonicsoft.com/",
+  },
   {
     id: 8,
     name: "Bravius AI - Responsive AI Website",

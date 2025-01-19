@@ -21,14 +21,16 @@ import project_Img8_banner from "../assets/images/projects/bravius_banner.png";
 
 import project_Img9_banner from "../assets/images/projects/turnstime_banner.png";
 
+import project_Img10_banner from "../assets/images/projects/idea_Spot.png";
+
 export const projectsData = [
   {
     id: 9,
     name: "Turnstime - Modern Hand Watch Shop E-Commerce",
     description:
-    "Turnstime is a modern e-commerce website designed and developed focusing on user-friendly functionality and responsive design.\n\n" +
-    "🔹Built using React, TypeScript, TailwindCSS, and Swiper for interactive sliders.\n\n" +
-    "🔹Core features include add-to-cart, wishlist, and detailed product pages showcasing descriptions, reviews, and related products.",
+      "Turnstime is a modern e-commerce website designed and developed focusing on user-friendly functionality and responsive design.\n\n" +
+      "🔹Built using React, TypeScript, TailwindCSS, and Swiper for interactive sliders.\n\n" +
+      "🔹Core features include add-to-cart, wishlist, and detailed product pages showcasing descriptions, reviews, and related products.",
     tools: ["React", "Tailwind CSS", "Typescript(TSX)"],
     demo: "https://react-templates.evonicmedia.com/turnstime/",
     banner: project_Img9_banner,
@@ -49,6 +51,28 @@ export const projectsData = [
     duration: "Oct 2024 - Nov 2024",
     company: "Evonicsoft",
     companyLink: "https://www.evonicsoft.com/",
+  },
+  {
+    id: 10,
+    name: "IdeaSpot - Idea Management Platform",
+    description:
+      "IdeaSpot is a platform designed to streamline idea management and collaboration, focusing on an intuitive user experience and responsive design.\n\n" +
+      "🔹Built using React, TypeScript, and TailwindCSS for a seamless and modern interface.\n\n" +
+      "🔹Key functionalities include idea submission, categorization, and collaborative voting to prioritize the best ideas.",
+    tools: [
+      "Next.JS",
+      "Sanity (Headless CMS)",
+      "NextAuth.js (Authentication)",
+      "Sentry (Error Tracking and Monitoring)",
+      "TypeScript(TSX)",
+      "Tailwind CSS",
+    ],
+    demo: "https://idea-spot.vercel.app/",
+    banner: project_Img10_banner,
+    image: project_Img10_banner,
+    duration: "Jan 2025",
+    company: "Personal Project",
+    companyLink: "https://github.com/",
   },
   {
     id: 1,

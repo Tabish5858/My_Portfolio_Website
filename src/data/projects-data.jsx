@@ -62,7 +62,7 @@ export const projectsData = [
     tools: [
       "Next.JS",
       "Sanity (Headless CMS)",
-      "NextAuth.js (Authentication)",
+      "NextAuth.js",
       "Sentry (Error Tracking and Monitoring)",
       "TypeScript(TSX)",
       "Tailwind CSS",
@@ -70,9 +70,9 @@ export const projectsData = [
     demo: "https://idea-spot.vercel.app/",
     banner: project_Img10_banner,
     image: project_Img10_banner,
-    duration: "Jan 2025",
+    duration: "Nov 2024",
     company: "Personal Project",
-    companyLink: "https://github.com/",
+    companyLink: "https://github.com/Tabish5858/",
   },
   {
     id: 1,

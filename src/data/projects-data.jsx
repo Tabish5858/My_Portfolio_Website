@@ -135,7 +135,7 @@ export const projectsData = [
       "A colorful, responsive website built for a kindergarten and pre-school, aimed at providing a playful and user-friendly experience for parents and guardians. The design focuses on simplicity, while maintaining a visually appealing interface for showcasing the school’s services, curriculum, and events.",
     tools: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
     role: "Frontend Developer",
-    demo: "https://html-templates.evonicmedia.com/kinderdot/",
+    demo: "https://themeforest.net/item/kinderdot-kindergarten-preschool-html5-template/56437116?s_rank=1",
     image: project_Img5,
     banner: project_Img5_banner,
     duration: "Aug 2024 - Sep 2024",

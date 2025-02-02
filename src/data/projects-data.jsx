@@ -10,6 +10,7 @@ import project_Img4 from "../assets/images/projects/Finteezy.gif";
 import project_Img4_banner from "../assets/images/projects/Finteezy_banner.png";
 
 import project_Img5 from "../assets/images/projects/kinderDot.gif";
+import project_Img5_banner from "../assets/images/projects/Kinderdot_banner.png";
 
 import project_Img6 from "../assets/images/projects/LivingQuran.gif";
 
@@ -136,6 +137,7 @@ export const projectsData = [
     role: "Frontend Developer",
     demo: "https://html-templates.evonicmedia.com/kinderdot/",
     image: project_Img5,
+    banner: project_Img5_banner,
     duration: "Aug 2024 - Sep 2024",
     company: "Evonicsoft",
     companyLink: "https://www.evonicsoft.com/",
